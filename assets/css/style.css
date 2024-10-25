@@ -1,8 +1,11 @@
- #aboutme { 
-    background-image: url(../imagenes/Section_img.png) ;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: right;
-    height: 60vh;
-   
+#cuerpo {
+}
+#aboutme {
+  background-image: url(../imagenes/Section_img3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  min-width: 50%;
+  background-color: black;
 }
