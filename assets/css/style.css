@@ -1,6 +1,18 @@
 #cuerpo {
+    background-image: url(../imagenes/fondo2.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+
+  }
+#aboutme{
+  width: 80%;
+  margin: auto;
 }
-#aboutme {
+#experiencia{
+  width: 80%;
+  margin: auto;
+}
+/* #aboutme {
   background-image: url(../imagenes/Section_img2.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,3 +21,4 @@
   min-width: 20%;
   background-color: black;
 }
+ */
