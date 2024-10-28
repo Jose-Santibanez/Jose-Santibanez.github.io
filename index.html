@@ -56,53 +56,57 @@
     </nav> -->
 
     <header id="Cabecera" class="">
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <div class="collapse navbar-collapse" aria-labelledby="bd-theme">
             <div class="navbar-brand">
-              <a href=""
-                ><img
+              <a href="">
+                <img
                   class="rounded-circle"
                   src="assets/imagenes/mi_logo2.png"
-                  alt=""
-              /></a>
+                  alt=""/>
+                </a>
             </div>
-            <ul
-              class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5"
-              data-bs-theme-value="light"
-            >
-              <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de mi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">habilidades</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Trabajos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-            </ul>
-          </div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" 
+            data-bs-target="#mi-menu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mi-menu" >
+                <ul
+                class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5"
+                data-bs-theme-value="light">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+           </div>     
         </div>
       </nav>
     </header>
 
-    <main id="cuerpo">
+    <main id="cuerpo" class="py-5">
       <!-- Inicio Cuerpo de pagina -->
       <!-- Seccion acerca de mi -->
       <section id="aboutme" class="text-light">
         <div class="container-fluid">
           <div class="row">
             <div class="col-xs-12 col-md-5 col-lg-5 col-xxl-4">
-              <h1 class="display-2 card-title">José Santibañez Riquelme</h1>
+              <h1 class="display-2 pt-5">José Santibañez Riquelme</h1>
               <p>
                 Desarrollador full stack, apasionado de las tecnologias, con
                 conocimientos en variedad de herramientas tecnologicas.
               </p>
             </div>
-            <div class="col-xs-12 col-8 col-md-7 col-lg-7 col-xxl-8 col-xs-12">
+            <div class="col-xs-0  col-md-7 col-lg-7 col-xxl-8 pt-5">
               <img src="assets/imagenes/main.png" alt="" class="img-fluid" />
             </div>
           </div>
@@ -117,7 +121,7 @@
         </div>
 
         <!-- Cuerpo Contenedor PADRE -->
-        <div class="row">
+        <div class="row ">
           <!--  1 - Contenedor HIJO-->
           <div class="col-xs-12 col-xs-12 col-sm-12 col-md-3">
             <h3 class="">
@@ -207,8 +211,94 @@
         </div>
       </section>
       <!-- FIN SECCION EXPERIENCIA -->
+      <!-- INICIO SECCION PROYECTOS -->
+       <section id="proyectos" class="container py-2 w-75">
+          <h2 class="display-4 text-center mb-4">
+            proyectos
+          </h2>
+          <div class="row g-5">
+              <!-- COLUMNA 1 -->
+              <div class="col-xs-12 col-md-4 col-lg-4">
+                 <div class="card mb-2">
+                    <img src="assets/imagenes/01_proy.PNG" alt="" class="card-img-bottom">                   
+                </div>
+                  <h4 class="card-title">Introducción a HTML</h4>
+                
+              </div>
+              <!-- COLUMNA 2 -->
+              <div class="col-xs-12 col-md-4 col-lg-4">
+                <div class="card mb-2">
+                   <img src="assets/imagenes/02_proy.PNG" alt="" class="card-img-top">
+                </div>
+                
+                  <h4 class="card-title">Introduccion a CSS</h4>
+                
+             </div>
+             <!-- COLUMNA 3 -->
+             <div class="col-xs-12 col-md-4 col-lg-4">
+              <div class="card mb-2">
+                 <img src="assets/imagenes/03_proy.PNG" alt="" class="card-img-top">
+              </div>
+                <h4 class="card-title">Alineación FLexBox</h4>
+
+           </div>
+           <!-- COLUMNA 4 -->
+           <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="card mb-2">
+               <img src="assets/imagenes/04_proy.PNG" alt="" class="card-img-top">
+            </div>
+              <h4 class="card-title">Bootstrap</h4>
+            
+         </div>
+         <!-- COLUMNA 5 -->
+         <div class="col-xs-12 col-md-4 col-lg-4">
+          <div class="card mb-2">
+             <img src="assets/imagenes/05_proy.PNG" alt="" class="card-img-top">
+          </div>
+            <h4 class="card-title">Git - GitHub</h4>
+          
+       </div>
+       <!-- COLUMNA 5 -->
+       <div class="col-xs-12 col-md-4 col-lg-4">
+        <div class="card mb-2">
+           <img src="assets/imagenes/06_proy.PNG" alt="" class="card-img-top">
+        </div>
+          <h4 class="card-title">Desafio Final</h4>
+       </div>
+          </div>
+       </section>
+       <!--INICIO SECCION CANTACTO -->
+       <section id="Contacto" class="container my-2">
+        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+  
+        <form id="formulario">
+          <div class="form-group mb-2">
+            <label class="mb-1">Nombre</label>
+            <input class="form-control" placeholder="Nombre" />
+          </div>
+  
+          <div class="form-group mb-2">
+            <label class="mb-1">Correo electrónico</label>
+            <input class="form-control" placeholder="Correo electrónico" />
+          </div>
+  
+          <div class="form-group">
+            <label class="mb-1">Mensaje</label>
+            <textarea
+              class="form-control"
+              placeholder="Escribe aquí tu mensaje"
+            ></textarea>
+          </div>
+  
+          <div class="my-2 text-center">
+            <button class="btn btn-dark text-light">Enviar</button>
+          </div>
+        </form>
+      </section>
     </main>
-    <footer id="Pie"></footer>
+    <footer id="pie" class="bg-dark text-center text-light p-4">
+      <p class="mb-0">José 2024. Todos los derechos reservados.</p>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
