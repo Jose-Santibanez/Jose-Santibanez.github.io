@@ -3,6 +3,7 @@
 ## 🔗 Links
 
 - [ Curriculum ](https://github.com/Jose-Santibanez/Jose-Santibanez.github.io.git)
+- [ GitHub Pages ] (https://jose-santibanez.github.io/)
 
 Forks Task's
 
