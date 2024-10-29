@@ -2,17 +2,24 @@ body {
     background-image: url(../imagenes/fondo2.png);
     background-position: cover;
     background-repeat: no-repeat;
-    
+    min-height: 100%;
   }
 #aboutme{
   width: 80%;
   margin: auto;
+}
+#cuerpo #educacion .display-4{
+  border: 1px;
+  border-radius: 1px;
 }
 #experiencia{
   width: 80%;
   margin: auto;
 }
 
+#experiencia .row #listas  li{ 
+  list-style-type: none;
+}
 /* #aboutme {
   background-image: url(../imagenes/Section_img2.png);
   background-repeat: no-repeat;

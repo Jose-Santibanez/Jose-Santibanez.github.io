@@ -32,37 +32,42 @@
     <header id="Cabecera" class="">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <div class="navbar-brand">
-              <a href="">
-                <img
-                  class="rounded-circle"
-                  src="assets/imagenes/mi_logo2.png"
-                  alt=""/>
-                </a>
-            </div>
-            <button class="navbar-toggler" data-bs-toggle="collapse" 
-            data-bs-target="#mi-menu">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+          <div class="navbar-brand">
+            <a href="">
+              <img
+                class="rounded-circle"
+                src="assets/imagenes/mi_logo2.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#mi-menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <div class="collapse navbar-collapse" id="mi-menu" >
-                <ul
-                class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5"
-                data-bs-theme-value="light">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Acerca de mi</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">habilidades</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Trabajos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                </ul>
-           </div>     
+          <div class="collapse navbar-collapse" id="mi-menu">
+            <ul
+              class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5"
+              data-bs-theme-value="light"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -70,17 +75,17 @@
     <main id="cuerpo" class="py-5">
       <!-- Inicio Cuerpo de pagina -->
       <!-- Seccion acerca de mi -->
-      <section id="aboutme" class="text-light">
+      <section id="aboutme" class="">
         <div class="container-fluid">
           <div class="row">
             <div class="col-xs-12 col-md-5 col-lg-5 col-xxl-4">
-              <h1 class="display-2 pt-5">José Santibañez Riquelme</h1>
-              <p>
+              <h1 class="display-2 pt-5 text-light">José Santibañez Riquelme</h1>
+              <p class="text-info">
                 Desarrollador full stack, apasionado de las tecnologias, con
                 conocimientos en variedad de herramientas tecnologicas.
               </p>
             </div>
-            <div class="col-xs-0  col-md-7 col-lg-7 col-xxl-8 pt-5">
+            <div class="col-xs-0 col-md-7 col-lg-7 col-xxl-8 pt-5">
               <img src="assets/imagenes/main.png" alt="" class="img-fluid" />
             </div>
           </div>
@@ -89,37 +94,37 @@
       <!-- FIN SECCION ACERCA DE MI -->
       <!-- Seccion EDUCACION -->
       <section id="educacion" class="container">
-        <!-- Contenedor para la experiencias laborales -->
+        <!-- Contenedor para los ESTUDIOS -->
         <div class="conteiner text-center">
           <h1 class="display-4">Educación</h1>
         </div>
 
         <!-- Cuerpo Contenedor PADRE -->
-        <div class="row ">
+        <div class="row">
           <!--  1 - Contenedor HIJO-->
           <div class="col-xs-12 col-xs-12 col-sm-12 col-md-3">
-            <h3 class="">
+            <h3 class="estudios">
               <span>Diplomado - Extensión analytics para profesionales </span>
             </h3>
             <p>Universidad de Chile - 2023 (Terminado)</p>
           </div>
           <!--  2 - Contenedor HIJO -->
           <div class="col-xs-12 col-sm-12 col-md-3">
-            <h3 class="">
+            <h3 class="estudios">
               <span>Curso - Data analytics (sql + power Bi)</span>
             </h3>
             <p>Coderhouse - 2023</p>
           </div>
           <!-- 3 - Contenedor HIJO -->
           <div class="col-xs-12 col-sm-12 col-md-3">
-            <h3 class="">
+            <h3 class="estudios">
               <span>Diplomado - Inteligencia de Negocios</span>
             </h3>
             <p>Universidad de Chile - 2022 (Terminado)</p>
           </div>
           <!-- 4 - Contenedor HIJO -->
           <div class="col-xs-12 col-sm-12 col-md-3">
-            <h3 class="">
+            <h3 class="estudios">
               <span>Diplomado - Inteligencia de Negocios</span>
             </h3>
             <p>Universidad de Chile - 2022 (Terminado)</p>
@@ -141,121 +146,134 @@
           <!-- Experiencia 1 - Contenedor HIJO-->
           <div class="col-xs-12 col-sm-12 col-md-4">
             <h3 class=""><span>Gael Cloud</span>-Analista de datos.</h3>
-            <div class="">
-              <u>
-                <li>
+              <ul id="listas" class="list-group">
+                <li >
                   Obtención, recolección, limpieza y transformación de datos
                 </li>
-                <li>Creación, mantención y seguimiento de Métricas y Kpis</li>
-                <li>
+                <li >Creación, mantención y seguimiento de Métricas y Kpis</li>
+                <li >
                   Identificar patrones y relaciones relevantes en los datos para
                   generar Insights
                 </li>
-              </u>
-            </div>
+              </ul>
           </div>
-          <!-- Contenedor 2 - Contenedor HIJO -->
+
+                <!-- Contenedor 2 - Contenedor HIJO -->
           <div class="col-xs-12 col-sm-12 col-md-4">
             <h3 class="">
               <span>Comercializadora Funziona Retail chile ltda</span>-Consultor
               TI
             </h3>
-            <div class="">
-              <u>
+              <ul id="listas" class="list-group">
                 <li>Manejo Completo del Sistema ERP ETICADATA.</li>
                 <li>Instalación y capacitación del ERP ETICADATA</li>
                 <li>Extracción de informes solicitadas por Cliente.</li>
                 <li>Consultas a la BD del cliente(sql server)</li>
-              </u>
-            </div>
+              </ul>
           </div>
-          <!-- Contendor 3 - Contenedor HIJO -->
+
+              <!-- Contendor 3 - Contenedor HIJO -->
           <div class="col-xs-12 col-md-4">
             <h3 class="">
               <span>Seidor Technologies</span>-Consultor basis -NetWeaver Sap. .
             </h3>
-            <div class="">
-              <u>
+              <ul id="listas" class="list-group">
                 <li>Integración de procesos, información y usuarios</li>
                 <li>Gestión de usuarios</li>
                 <li>Supervisión</li>
-              </u>
-            </div>
+              </ul>
           </div>
         </div>
       </section>
       <!-- FIN SECCION EXPERIENCIA -->
       <!-- INICIO SECCION PROYECTOS -->
-       <section id="proyectos" class="container py-2 w-75">
-          <h2 class="display-4 text-center mb-4">
-            proyectos
-          </h2>
-          <div class="row g-5">
-              <!-- COLUMNA 1 -->
-              <div class="col-xs-12 col-md-4 col-lg-4">
-                 <div class="card mb-2">
-                    <img src="assets/imagenes/01_proy.PNG" alt="" class="card-img-bottom">                   
-                </div>
-                  <h4 class="card-title">Introducción a HTML</h4>
-                
-              </div>
-              <!-- COLUMNA 2 -->
-              <div class="col-xs-12 col-md-4 col-lg-4">
-                <div class="card mb-2">
-                   <img src="assets/imagenes/02_proy.PNG" alt="" class="card-img-top">
-                </div>
-                
-                  <h4 class="card-title">Introduccion a CSS</h4>
-                
-             </div>
-             <!-- COLUMNA 3 -->
-             <div class="col-xs-12 col-md-4 col-lg-4">
-              <div class="card mb-2">
-                 <img src="assets/imagenes/03_proy.PNG" alt="" class="card-img-top">
-              </div>
-                <h4 class="card-title">Alineación FLexBox</h4>
-
-           </div>
-           <!-- COLUMNA 4 -->
-           <div class="col-xs-12 col-md-4 col-lg-4">
+      <section id="proyectos" class="container py-2 w-75">
+        <h2 class="display-4 text-center mb-4">proyectos</h2>
+        <div class="row g-5">
+          <!-- COLUMNA 1 -->
+          <div class="col-xs-12 col-md-4 col-lg-4">
             <div class="card mb-2">
-               <img src="assets/imagenes/04_proy.PNG" alt="" class="card-img-top">
+              <img
+                src="assets/imagenes/01_proy.PNG"
+                alt=""
+                class="card-img-bottom"
+              />
             </div>
-              <h4 class="card-title">Bootstrap</h4>
-            
-         </div>
-         <!-- COLUMNA 5 -->
-         <div class="col-xs-12 col-md-4 col-lg-4">
-          <div class="card mb-2">
-             <img src="assets/imagenes/05_proy.PNG" alt="" class="card-img-top">
+            <h4 class="card-title">Introducción a HTML</h4>
           </div>
+          <!-- COLUMNA 2 -->
+          <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="card mb-2">
+              <img
+                src="assets/imagenes/02_proy.PNG"
+                alt=""
+                class="card-img-top"
+              />
+            </div>
+
+            <h4 class="card-title">Introduccion a CSS</h4>
+          </div>
+          <!-- COLUMNA 3 -->
+          <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="card mb-2">
+              <img
+                src="assets/imagenes/03_proy.PNG"
+                alt=""
+                class="card-img-top"
+              />
+            </div>
+            <h4 class="card-title">Alineación FLexBox</h4>
+          </div>
+          <!-- COLUMNA 4 -->
+          <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="card mb-2">
+              <img
+                src="assets/imagenes/04_proy.PNG"
+                alt=""
+                class="card-img-top"
+              />
+            </div>
+            <h4 class="card-title">Bootstrap</h4>
+          </div>
+          <!-- COLUMNA 5 -->
+          <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="card mb-2">
+              <img
+                src="assets/imagenes/05_proy.PNG"
+                alt=""
+                class="card-img-top"
+              />
+            </div>
             <h4 class="card-title">Git - GitHub</h4>
-          
-       </div>
-       <!-- COLUMNA 5 -->
-       <div class="col-xs-12 col-md-4 col-lg-4">
-        <div class="card mb-2">
-           <img src="assets/imagenes/06_proy.PNG" alt="" class="card-img-top">
-        </div>
-          <h4 class="card-title">Desafio Final</h4>
-       </div>
           </div>
-       </section>
-       <!--INICIO SECCION CANTACTO -->
-       <section id="Contacto" class="container my-2">
+          <!-- COLUMNA 5 -->
+          <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="card mb-2">
+              <img
+                src="assets/imagenes/06_proy.PNG"
+                alt=""
+                class="card-img-top"
+              />
+            </div>
+            <h4 class="card-title">Desafio Final</h4>
+          </div>
+        </div>
+      </section>
+      <!--INICIO SECCION CANTACTO -->
+      <section id="Contacto" class="container my-2">
         <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
-  
+
         <form id="formulario">
           <div class="form-group mb-2">
             <label class="mb-1">Nombre</label>
             <input class="form-control" placeholder="Nombre" />
           </div>
-  
+
           <div class="form-group mb-2">
             <label class="mb-1">Correo electrónico</label>
             <input class="form-control" placeholder="Correo electrónico" />
           </div>
-  
+
           <div class="form-group">
             <label class="mb-1">Mensaje</label>
             <textarea
@@ -263,7 +281,7 @@
               placeholder="Escribe aquí tu mensaje"
             ></textarea>
           </div>
-  
+
           <div class="my-2 text-center">
             <button class="btn btn-dark text-light">Enviar</button>
           </div>
