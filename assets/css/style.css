@@ -8,16 +8,15 @@ body {
   width: 80%;
   margin: auto;
 }
-#cuerpo #educacion .display-4{
-  border: 1px;
-  border-radius: 1px;
+#educacion {
+
 }
 #experiencia{
   width: 80%;
   margin: auto;
 }
 
-#experiencia .row #listas  li{ 
+#experiencia .row #listas li{ 
   list-style-type: none;
 }
 /* #aboutme {
